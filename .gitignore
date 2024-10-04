@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+build/
+dist/
+
+# Static files
+*.log
+*.lock
+*.lockfile
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+.vscode/
+.idea/
+.DS_Store
+
+# Compiled files
+*.out
+*.obj
+*.so
+*.exe
+*.dll
+
+# Jest Coverage
+coverage/
+
+# Storybook
+storybook-static/
+
+# Production files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.pack
+.pack.old
+.eslintcache
+
+# React Native
+.expo/
+web-build/
+android/
+ios/
+
+# Parcel-bundler cache
+.cache/
+
+# Next.js build output
+.next/
+
+# Gatsby files
+.cache/
+public/
+
+# JetBrains IDE files
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Miscellaneous
+*.tgz
+*.bak
+*.backup
+*.gz
+
+# Yarn Berry (v2) files
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Ignoring Firebase emulation files
+firebase-debug.log
+firebase-debug.*
